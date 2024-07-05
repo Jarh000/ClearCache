@@ -1,2 +1,1 @@
-# ClearCache
-Clear cache from redis
+# Cache

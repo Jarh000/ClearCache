@@ -1,0 +1,4 @@
+APIServer/properties
+APIServer/bin
+APIServer/obj
+/APIServer/.config/dotnet-tools.json
