@@ -18,7 +18,7 @@ namespace APIServer.Controllers
         [Route("clear")]
         public IActionResult GetVersion()
         {
-            var redis = ConnectionMultiplexer.Connect("127.0.0.1:6385,password=v3xtVOYVdlYQbGDQXumCYjgxWMbbUiW6JAzCaJ9Ssss=,ssl=False,abortConnect=False");
+            var redis = ConnectionMultiplexer.Connect("127.0.0.1:6385,ssl=False,abortConnect=False");
 
             // Get Redis server instance
             var server = redis.GetServer("127.0.0.1", 6385);
